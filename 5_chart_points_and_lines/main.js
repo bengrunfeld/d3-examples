@@ -21,7 +21,9 @@ var svg = graph.append('svg')
     .style('padding', '30px');
 
 // Create circles to represent points
-var circle = svg.selectAll('circle')
+var circle = svg.append('g')
+  .classed('circles', true)
+  .selectAll('circle')
   .data(stats)
     .enter()
       .append('circle')
@@ -35,7 +37,9 @@ var circle = svg.selectAll('circle')
         });
 
 // Create lines between the points
-var lines = svg.selectAll('line')
+var lines = svg.append('g')
+    .classed('lines', true)
+    .selectAll('line')
     .data(stats)
       .enter()
         .append('line')
