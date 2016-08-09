@@ -5,6 +5,14 @@ path {
   fill: none;
 }
 
+.signal1 {
+  stroke: steelblue;
+}
+
+.signal2 {
+  stroke: steelblue;
+}
+
 .tooltip {
   width: 10px;
   height: 20px;

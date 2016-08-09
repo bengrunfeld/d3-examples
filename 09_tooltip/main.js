@@ -4,7 +4,6 @@ var data = [3, 6, 2, 7, 5, 2, 0, 3, 8, 9, 2, 5, 9];
 
 var width = 800; 
 var height = 400; 
-var widthOfColumnsInGraph;
 
 var xScale = d3.scale.linear()
   .domain([0, data.length])
