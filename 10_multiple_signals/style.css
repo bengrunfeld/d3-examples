@@ -1,0 +1,17 @@
+/* tell the SVG path to be a thin blue line without any area fill */
+path {
+  stroke: steelblue;
+  stroke-width: 3;
+  fill: none;
+}
+
+.tooltip {
+  width: 10px;
+  height: 20px;
+  background: #3e3e3e;
+  border-radius: 5px;
+  padding: 15px;
+  position: absolute;
+  opacity: 0;
+  color: white;
+}

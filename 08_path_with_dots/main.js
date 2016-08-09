@@ -47,6 +47,3 @@ var circles = graph.select(".container")
             .attr('cy', function(d, i){
               return yScale(d);
             });
-
-
-
