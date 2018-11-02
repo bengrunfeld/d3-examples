@@ -1,3 +1,13 @@
 body {
   background: #e3e3e3;
 }
+
+svg {
+  width: 500px;
+  heigh: 500px;
+}
+
+path {
+  stroke-width: 2px;
+  stroke: purple;
+}
