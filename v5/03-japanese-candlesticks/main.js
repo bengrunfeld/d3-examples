@@ -60,7 +60,3 @@ svg.append('g')
     .attr('x', (d, i) => i * (dimensions.candleWidth + padding) + (Math.floor(dimensions.candleWidth / 2)))
     .attr('y', (d, i) => yScale(d.h))
     .style('fill', (d, i) => (d.c > d.o) ? 'green' : 'red')
-
-
-
-
