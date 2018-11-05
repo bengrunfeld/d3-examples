@@ -1,6 +1,6 @@
 let svg = d3.select('.main').append('svg')
 
-let dataArr = [8,2,1,5,30,9,3,2,15,6,3,7,9,2,1,25,22,15,6,3,7,9,]
+let dataArr = [8,2,1,5,30,9,3,2,15,6,3,7,9,2,1,25,22,15,6,3,7,9]
 let [dataMin, dataMax] = d3.extent(dataArr)
 
 let margin = {top: 40, right: 0, bottom: 0, left: 30}
