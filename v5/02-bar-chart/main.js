@@ -12,7 +12,7 @@ let xScale = d3.scaleLinear()
               .range([0, dataArr.length * (dimensions.barWidth + padding)])
 
 let yScale = d3.scaleLinear()
-              .domain([0, Math.max(...dataArr)])
+              .domain([0, dataMax])
               .range([dimensions.chartHeight, 0])
 
 let xAxis = d3.axisBottom(xScale).ticks(3)
