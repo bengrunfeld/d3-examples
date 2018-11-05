@@ -95,9 +95,3 @@ var hoverAreas = graph.select(".container")
           .on("mouseout", function(d, i){
             tip.style("opacity", 0);
           })
-
-
-
-
-
-
